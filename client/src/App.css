@@ -1,6 +1,15 @@
-/* Fonts */
+@import-normalize; /* bring in normalize.css styles */
+/* Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-/* Root style */
+
+/* Variables & Root Styles */
+:root {
+    /* Colors */
+    --main-bg-color: #FAF9F5;
+    --text-color-primary: #2E2D25;
+    --text-color-caption: #7E7B63;
+}
+
 .App {
     font-family: 'Source Serif Pro', serif;
 }

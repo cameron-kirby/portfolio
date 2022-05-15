@@ -48,7 +48,16 @@ const StyledHome = styled.div`
             border-right: 1px solid var(--text-color-primary);
 
             .column-article {
-                padding: 24px 32px;
+                padding: 32px;
+
+                p:first-child {
+                    margin: 0;
+                    font-size: 1.25rem;
+                }
+
+                p {
+
+                }
             }
         }
 

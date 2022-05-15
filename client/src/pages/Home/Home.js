@@ -3,6 +3,7 @@ import StyledHome from "./Home.styled";
 // icons
 import logo from '../../assets/logo.svg'
 import { LinkedinSquare, Github } from '@styled-icons/boxicons-logos'
+import { Briefcase } from '@styled-icons/boxicons-solid'
 import { ArrowUpRight } from '@styled-icons/octicons'
 // images
 import workThumb from '../../assets/work/work-placeholder.jpg'
@@ -31,6 +32,10 @@ const Home = props => {
                         About
                     </div>
                     <div className='column-article'>
+                        <p>
+                            Hello there! I'm Cameron 👋<br/>A Chicago-based fullstack web developer
+                            and UI/UX designer.
+                        </p>
                         <p>
                             As a (UX) designer, I love working with agile methodologies 
                             in the whole lifecycle of a product in collaboration with 

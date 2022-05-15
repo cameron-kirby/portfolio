@@ -3,6 +3,7 @@ import StyledHome from "./Home.styled";
 // icons
 import logo from '../../assets/logo.svg'
 import { LinkedinSquare, Github } from '@styled-icons/boxicons-logos'
+import { ArrowUpRight } from '@styled-icons/octicons'
 // images
 import workThumb from '../../assets/work/work-placeholder.jpg'
 // components
@@ -17,7 +18,7 @@ const Home = props => {
                     <img src={logo} alt="logo" />
                 </div>
                 <div className='description'>
-                    <h2>Hi. I am Cameron<br/>A fullstack web developer<br/>and UI/UX designer.</h2>
+                    <h2>Hi. I am Cameron,<br/>a fullstack web developer<br/>and UI/UX designer.</h2>
                 </div>
                 <div className='pills'>
                     <Pill icon={ <LinkedinSquare/> } text='kameroncirby' link='https://www.linkedin.com/in/kameroncirby/'/>
@@ -48,7 +49,10 @@ const Home = props => {
                             <h3 className='project-title'>Project title</h3>
                             <div className='project-tags'>React.js — Node.js</div>
                             <p className='project-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non aliquet mi. In iaculis, magna quis iaculis mattis, nulla odio hendrerit mi, in ultrices quam augue vulputate eros. Aliquam tincidunt urna at magna mattis, quis hendrerit purus rutrum. Donec a leo varius, tincidunt diam tempor, accumsan nulla. Integer tincidunt magna eget eros tempus, eget dignissim mi sodales. Integer lobortis aliquam nunc non condimentum. Morbi eget facilisis massa, id ultricies felis.</p>
-                            <div className='project-link'>read more</div>
+                            <a href='https://github.com/cameron-kirby' target='_blank' rel='noreferrer' className='project-link'>
+                                <div>Read more</div>
+                                <ArrowUpRight/>
+                            </a>
                         </div>
                     </div>
                     <hr/>
@@ -58,8 +62,21 @@ const Home = props => {
                             <h3 className='project-title'>Project title</h3>
                             <div className='project-tags'>React.js — Node.js</div>
                             <p className='project-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non aliquet mi. In iaculis, magna quis iaculis mattis, nulla odio hendrerit mi, in ultrices quam augue vulputate eros. Aliquam tincidunt urna at magna mattis, quis hendrerit purus rutrum. Donec a leo varius, tincidunt diam tempor, accumsan nulla. Integer tincidunt magna eget eros tempus, eget dignissim mi sodales. Integer lobortis aliquam nunc non condimentum. Morbi eget facilisis massa, id ultricies felis.</p>
-                            <div className='project-link'>read more</div>
+                            <a href='https://github.com/cameron-kirby' target='_blank' rel='noreferrer' className='project-link'>
+                                <div>Read more</div>
+                                <ArrowUpRight/>
+                            </a>
                         </div>
+                    </div>
+                </div>
+                <div className='skills'>
+                    <div className='column-heading'>
+                        Skills
+                    </div>
+                    <div className='column-article'>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non aliquet mi. In iaculis, magna quis iaculis mattis, nulla odio hendrerit mi, in ultrices quam augue vulputate eros. Aliquam tincidunt urna at magna mattis, quis hendrerit purus rutrum. Donec a leo varius, tincidunt diam tempor, accumsan nulla. Integer tincidunt magna eget eros tempus, eget dignissim mi sodales. Integer lobortis aliquam nunc non condimentum. Morbi eget facilisis massa, id ultricies felis.
+                        </p>
                     </div>
                 </div>
             </div>

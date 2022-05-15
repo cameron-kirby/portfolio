@@ -9,7 +9,7 @@ const StyledHome = styled.div`
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        padding: 76px 0 76px 0;
+        padding: 64px 0 64px 0;
 
         .logo {
             img {
@@ -36,14 +36,16 @@ const StyledHome = styled.div`
         flex-direction: row;
         border: 1px solid var(--text-color-primary);
 
-        .about {
-            width: 30%;
-            border-right: 1px solid var(--text-color-primary);
+        .column-heading {
+            padding: 24px 32px;
+            border-bottom: 1px solid var(--text-color-primary);
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+        }
 
-            .column-heading {
-                padding: 24px 32px;
-                border-bottom: 1px solid var(--text-color-primary);
-            }
+        .about {
+            width: 25%;
+            border-right: 1px solid var(--text-color-primary);
 
             .column-article {
                 padding: 24px 32px;
@@ -51,13 +53,8 @@ const StyledHome = styled.div`
         }
 
         .work {
-            width: 50%;
+            width: 42%;
             border-right: 1px solid var(--text-color-primary);
-
-            .column-heading {
-                padding: 24px 32px;
-                border-bottom: 1px solid var(--text-color-primary);
-            }
 
             .column-project {
                 padding: 32px;
@@ -78,6 +75,8 @@ const StyledHome = styled.div`
                     .project-tags {
                         padding: 12px 0;
                         color: var(--text-color-caption);
+                        font-family: 'Rubik', sans-serif;
+                        font-weight: 500;
                     }
 
                     .project-description {
@@ -85,13 +84,37 @@ const StyledHome = styled.div`
                     }
 
                     .project-link {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
                         padding-top: 12px;
+                        font-family: 'Rubik', sans-serif;
+                        font-weight: 500;
+                        color: var(--text-color-caption);
+                        transition: 500ms;
+
+                        &:hover {
+                            color: var(--text-color-primary);
+                        }
+
+                        svg {
+                            width: 1.5rem;
+                        }
                     }
                 }
             }
 
             hr {
+                margin: 0;
                 color: var(--text-color-caption);
+            }
+        }
+
+        .skills {
+            width: 33%;
+
+            .column-article {
+                padding: 24px 32px;
             }
         }
     }

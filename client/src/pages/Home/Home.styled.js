@@ -50,6 +50,11 @@ const StyledHome = styled.div`
             .column-article {
                 padding: 32px;
 
+                img {
+                    width: 100%;
+                    border: 1px solid var(--text-color-primary);
+                }
+
                 p:first-child {
                     margin: 0;
                     font-size: 1.25rem;

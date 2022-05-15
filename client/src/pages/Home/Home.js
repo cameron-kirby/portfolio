@@ -6,6 +6,7 @@ import { LinkedinSquare, Github } from '@styled-icons/boxicons-logos'
 import { Briefcase } from '@styled-icons/boxicons-solid'
 import { ArrowUpRight } from '@styled-icons/octicons'
 // images
+import profile from '../../assets/profileimage.jpg'
 import workThumb from '../../assets/work/work-placeholder.jpg'
 // components
 import { Pill } from '../../components'
@@ -24,6 +25,7 @@ const Home = props => {
                 <div className='pills'>
                     <Pill icon={ <LinkedinSquare/> } text='kameroncirby' link='https://www.linkedin.com/in/kameroncirby/'/>
                     <Pill icon={ <Github/> } text='cameron-kirby' link='https://github.com/cameron-kirby'/>
+                    <Pill icon={ <Briefcase/> } text='resume' link='https://github.com/cameron-kirby'/>
                 </div>
             </div>
             <div className='content'>
@@ -32,6 +34,7 @@ const Home = props => {
                         About
                     </div>
                     <div className='column-article'>
+                        <img src={profile} alt='cameron kirby'/>
                         <p>
                             Hello there! I'm Cameron 👋<br/>A Chicago-based fullstack web developer
                             and UI/UX designer.

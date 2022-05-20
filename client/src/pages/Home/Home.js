@@ -23,7 +23,7 @@ const Home = props => {
                 <div className='pills'>
                     <Pill icon={ <LinkedinSquare/> } text='kameroncirby' link='https://www.linkedin.com/in/kameroncirby/'/>
                     <Pill icon={ <Github/> } text='cameron-kirby' link='https://github.com/cameron-kirby'/>
-                    <Pill icon={ <Briefcase/> } text='resume' link='https://github.com/cameron-kirby'/>
+                    <Pill icon={ <Briefcase/> } text='resume' link='https://docs.google.com/document/d/1OtbEGQxTy6HJb9gaQNyTom84WaERkwre2C6zHTA-RUk/edit?usp=sharing'/>
                 </div>
             </div>
             <div className='content'>

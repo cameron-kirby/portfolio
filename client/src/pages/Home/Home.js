@@ -16,10 +16,8 @@ const Home = props => {
     return (
         <StyledHome>
             <div className='header'>
-                <div className='logo'>
-                    <img src={logo} alt="logo" />
-                </div>
-                <div className='description'>
+                <img src={logo} className='logo' alt="logo" />
+                <div className='text'>
                     <h2>Hi. I am Cameron,<br/>a fullstack web developer<br/>and UI/UX designer.</h2>
                 </div>
                 <div className='pills'>

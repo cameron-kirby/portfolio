@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { devices } from '../utils'
 
 const StyledPill = styled.div`
     a {
@@ -10,13 +11,24 @@ const StyledPill = styled.div`
         text-decoration: none;
         color: var(--text-color-primary);
 
+        @media screen and ${devices.mobile} {
+            padding: 8px 0;
+        }
+
         .icon {
             width: 1.5rem;
             height: 1.5rem;
+            @media screen and ${devices.mobile} {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
         }
 
         .text {
             padding-left: 0.25rem;
+            @media screen and ${devices.mobile} {
+                font-size: 1.5rem;
+            }
         }
     }
 `

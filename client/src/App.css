@@ -16,4 +16,5 @@
 
 .App {
     font-family: 'Source Serif Pro', serif;
+    color: var(--text-color-primary);
 }

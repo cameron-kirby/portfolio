@@ -88,7 +88,7 @@ const Home = props => {
             </div>
             <div className='footer'>
                 <span>Made with love with React.js</span>
-                <span>Special thanks.</span>
+                <span>Copyright © 2022 Cameron Kirby</span>
             </div>
         </StyledHome>
     )

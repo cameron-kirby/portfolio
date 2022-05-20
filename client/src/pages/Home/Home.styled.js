@@ -6,7 +6,7 @@ const StyledHome = styled.div`
     background-color: var(--main-bg-color);
 
     @media screen and ${devices.mobile} {
-        padding: 32px;
+        padding: 0;
     }
 
     .header {
@@ -17,6 +17,7 @@ const StyledHome = styled.div`
         padding-bottom: 64px;
 
         @media screen and ${devices.mobile} {
+            padding: 32px;
             height: 90vh;
             justify-content: space-between;
         }
@@ -53,6 +54,7 @@ const StyledHome = styled.div`
         border: 1px solid var(--text-color-primary);
 
         @media screen and ${devices.mobile} {
+            padding: 32px;
             flex-direction: column;
             border: none;
         }
@@ -90,7 +92,7 @@ const StyledHome = styled.div`
                 img {
                     width: 100%;
                     border: 1px solid var(--text-color-primary);
-                    
+
                     @media screen and ${devices.mobile} {
                         border: none;
                     }
@@ -202,7 +204,10 @@ const StyledHome = styled.div`
         border-top: 0px solid;
 
         @media screen and ${devices.mobile} {
+            padding: 32px;
             border: none;
+            background-color: var(--text-color-primary);
+            color: var(--main-bg-color);
         }
     }
 `
